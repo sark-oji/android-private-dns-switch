@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Private DNS Switch</string>
+    <string name="tile_label">Private DNS</string>
+    <string name="app_description">クイック設定パネルからAndroidのPrivate DNSをオン・オフします。</string>
+    <string name="app_note">このアプリはWRITE_SECURE_SETTINGS権限をADBから付与した端末向けです。タイルを長押しするとPrivate DNS設定画面を開きます。</string>
+    <string name="open_private_dns_settings">Private DNS設定を開く</string>
+    <string name="refresh_status">状態を再読み込み</string>
+    <string name="permission_granted">権限: 付与済み</string>
+    <string name="permission_missing">権限: 未付与\n%1$s</string>
+    <string name="status_enabled">状態: ON (%1$s)\nホスト名: %2$s</string>
+    <string name="status_disabled">状態: OFF (%1$s)\nホスト名: %2$s</string>
+    <string name="hostname_not_set">未設定</string>
+    <string name="mode_hostname">指定ホスト名</string>
+    <string name="mode_automatic">自動</string>
+    <string name="mode_off">オフ</string>
+    <string name="tile_subtitle_permission_missing">ADB許可が必要</string>
+    <string name="toggle_write_failed">Private DNS設定を書き込めませんでした。</string>
+    <string name="toggle_security_exception">WRITE_SECURE_SETTINGS権限がありません。</string>
+</resources>
